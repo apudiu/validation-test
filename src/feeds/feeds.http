@@ -1,0 +1,9 @@
+### Create feed
+POST http://localhost:3000/feeds/create
+Content-Type: application/json
+
+{
+    "title": "This is title",
+    "body": null,
+    "attachment": null
+}

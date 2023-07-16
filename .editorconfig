@@ -1,0 +1,60 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+max_line_length = 100
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{js,mjs,cjs,jsx,json,ts,tsx,vue,yml,yaml,html}]
+indent_size = 2
+
+# PHP
+ij_php_import_sorting = alphabetic
+
+# HTML
+ij_html_quote_style = double
+
+# JS
+ij_javascript_force_semicolon_style = true
+ij_javascript_use_semicolon_after_statement = true
+ij_javascript_object_literal_wrap = off
+ij_javascript_spaces_within_object_literal_braces = true
+ij_javascript_spaces_within_object_type_braces = true
+ij_javascript_align_multiline_parameters_in_calls = false
+ij_javascript_align_multiline_parameters = false
+ij_javascript_blank_lines_after_imports = unset
+ij_javascript_import_merge_members = true
+ij_javascript_import_prefer_absolute_path = false
+ij_javascript_import_sort_members = true
+ij_javascript_spaces_within_imports = true
+ij_javascript_space_before_function_left_parenth = true
+ij_javascript_use_double_quotes = false
+
+# TS
+ij_typescript_force_semicolon_style = true
+ij_typescript_use_semicolon_after_statement = true
+ij_typescript_object_literal_wrap = off
+ij_typescript_spaces_within_object_literal_braces = true
+ij_typescript_spaces_within_object_type_braces = true
+ij_typescript_align_multiline_parameters_in_calls = false
+ij_typescript_align_multiline_parameters = false
+
+ij_typescript_blank_lines_after_imports = unset
+ij_typescript_import_merge_members = true
+ij_typescript_import_prefer_absolute_path = false
+ij_typescript_import_sort_members = true
+ij_typescript_import_use_node_resolution = true
+ij_typescript_import_sort_module_name = true
+ij_typescript_spaces_within_imports = true
+
+ij_typescript_use_double_quotes = false
+ij_typescript_function_expression_brace_style = end_of_line
+ij_typescript_space_before_function_left_parenth = true
+
