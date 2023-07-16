@@ -8,7 +8,6 @@
       "Title, Body and attachment can't be empty at the same time"
     ]
   }
-}
 ```
 
 Expected is pass the validation as one field is provided
